@@ -31,30 +31,28 @@ results
 # 12
 varx <- 8
 a <- 2
-
-# 13 
 results <- a^2 * varx
 results
 
-# 14
+# 13
 varx <- 8
 results <- sqrt(varx)
 results
 
-# 15 
+# 14 
 varx <- 2
 vary <- 2
 results <- varx + vary
 results
 
-# 16
+# 15
 EXY <- 26
 EX <- 4
 EY <- 5
 results <- EXY - EX * EY
 results
 
-# 17
+# 16
 x <- c(2, 3, 1)
 y <- c(2, 1, 3)
 EX <- mean(x)
@@ -63,21 +61,21 @@ EXY <- mean(x * y)
 covXY <- EXY - EX * EY
 covXY
 
-# 18
+# 17
 covXY <- 0
 a1 <- 3
 a2 <- 5
 results <- a1 * a2 * covXY
 results
 
-# 19
+# 18
 covXY <- -2
 sdx <- 3
 sdy <- 2
 results <- covXY / (sdx * sdy)
 results
 
-# 20
+# 19
 varx <- 6
 vary <- 5
 covXY <- 0
@@ -86,17 +84,17 @@ b <- 3
 results <- a^2 * varx + b^2 * vary + 2 * a * b * covXY
 results
 
-# 21
+# 20
 Y <- c(8, 5, 0, 11)
 EY_given_x <- mean(Y)
 EY_given_x
 
-# 22
+# 21
 Y <- c(1, 6, 1)
 p <- c(0.2, 0.3, 0.5)
 EY_given_x <- sum(Y * p)
 
-# 23
+# 22
 EY_given_x <- 7
 a <- 2
 b <- 3
